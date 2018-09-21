@@ -48,6 +48,24 @@ Card
 Radio
 ```
 
+## 本地化步骤
+```
+# 一、克隆到本地
+git clone https://github.com/clearloverP/vue-vue-router-axios-webpack-vuex-es6-element-todolist.git
+
+# 二、切换到项目目录
+cd vue-vue-router-axios-webpack-vuex-es6-element-todolist
+cd demo
+
+# 三、安装依赖
+npm install
+
+# 四、npm run dev
+
+# 五、打开浏览器,在地址栏输入：localhost:8100
+```
+
+
 
 
 
