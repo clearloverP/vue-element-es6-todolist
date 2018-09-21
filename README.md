@@ -46,6 +46,7 @@ Button
 Input
 Card
 Radio
+Scroll
 ```
 
 ## 本地化步骤
