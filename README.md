@@ -48,6 +48,8 @@ Card
 Radio
 Scroll
 ```
+<br>
+浏览器兼容性（目前已测）：兼容Firefox、Chrome、IE，具体IE兼容到哪个版本目前未作测试，Safari目前兼容性未作测试
 
 ## 本地化步骤
 ```
