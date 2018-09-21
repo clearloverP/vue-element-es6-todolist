@@ -20,7 +20,8 @@ element-ui
 ```
 注意：
 一、新增的todo不能为空字符串并且会对输入的内容做重复性检查，只有未添加的todo才可以完成添加，而不会受todo的状态是否完成干扰<br>
-二、获取更多按钮，是测试vuex的actions的功能而增加的，取得是知乎日报的API：```http://news-at.zhihu.com/api/4/news/latest```，此处的功能也是将接口返回的数据的title字段作为todo的text字段，并加入todolist，但是没有和原有的数据做重复性检查，特此说明
+二、获取更多按钮，是测试vuex的actions的功能而增加的，取得是知乎日报的API：http://news-at.zhihu.com/api/4/news/latest，<br>
+此处的功能也是将接口返回的数据的title字段作为todo的text字段，并加入todolist，但是没有和原有的数据做重复性检查，特此说明
 ```
 
 ## 删除单个todo
