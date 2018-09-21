@@ -17,12 +17,10 @@ element-ui
 
 ## 新增todo
 在顶部输入框中输入内容后，再按回车键，即可将输入的内容作为一条新的todo加入到todolist中，新加入的todo会在末尾展示
-```
 注意：
 一、新增的todo不能为空字符串并且会对输入的内容做重复性检查，只有未添加的todo才可以完成添加，而不会受todo的状态是否完成干扰<br>
 二、获取更多按钮，是测试vuex的actions的功能而增加的，取得是知乎日报的API：http://news-at.zhihu.com/api/4/news/latest，<br>
-此处的功能也是将接口返回的数据的title字段作为todo的text字段，并加入todolist，但是没有和原有的数据做重复性检查，特此说明
-```
+此处的功能也是将接口返回的数据的title字段作为todo的text字段，并加入todolist，但是没有和原有的数据做重复性检查，特此说明<br>
 
 ## 删除单个todo
 每一条todo的后面都有一个```删除```按钮，点击该按钮会实现删除该条todo的功能
